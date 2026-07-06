@@ -8,7 +8,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node api.js && tsc",
     "build:watch": "tsc --watch",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -26,7 +26,6 @@
     "examples:alert-setup": "ts-node --transpile-only --require tsconfig-paths/register examples/alert-setup.ts",
     "examples:rwa-pool": "ts-node examples/rwa-pool.ts",
     "examples:governance-vote": "ts-node examples/governance-vote.ts",
-    "examples:alert-setup": "ts-node --transpile-only --require tsconfig-paths/register examples/alert-setup.ts",
     "docs": "typedoc",
     "fuzz": "jest --testPathPattern=fuzz --no-coverage",
     "benchmark": "ts-node benchmarks/run.ts",
@@ -50,7 +49,7 @@
     "url": "https://github.com/CoralSwap-Finance/coralswap-sdk.git"
   },
   "dependencies": {
-    "@stellar/stellar-sdk": "^12.3.0",
+    "@stellar/stellar-sdk": "^16.0.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
