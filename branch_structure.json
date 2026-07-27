@@ -1,0 +1,36 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "dependabot/npm_and_yarn/minor-patch-d0362d2f95",
+    "dependabot/npm_and_yarn/stellar/stellar-sdk-16.0.1",
+    "dependabot/npm_and_yarn/typescript-6.0.3",
+    "dependabot/npm_and_yarn/zod-4.4.3",
+    "fix/migrate-getSwapHistory-to-EventCursor",
+    "main",
+    "origin",
+    "rebase/pr-375",
+    "revert-50-fix/improve-error-mapping"
+  ],
+  "parent": {
+    "dependabot/npm_and_yarn/minor-patch-d0362d2f95": "main",
+    "dependabot/npm_and_yarn/stellar/stellar-sdk-16.0.1": "main",
+    "dependabot/npm_and_yarn/typescript-6.0.3": "main",
+    "dependabot/npm_and_yarn/zod-4.4.3": "main",
+    "fix/migrate-getSwapHistory-to-EventCursor": "main",
+    "main": null,
+    "origin": "main",
+    "rebase/pr-375": "main",
+    "revert-50-fix/improve-error-mapping": "main"
+  },
+  "order": [
+    "main",
+    "dependabot/npm_and_yarn/minor-patch-d0362d2f95",
+    "dependabot/npm_and_yarn/stellar/stellar-sdk-16.0.1",
+    "dependabot/npm_and_yarn/typescript-6.0.3",
+    "dependabot/npm_and_yarn/zod-4.4.3",
+    "fix/migrate-getSwapHistory-to-EventCursor",
+    "origin",
+    "rebase/pr-375",
+    "revert-50-fix/improve-error-mapping"
+  ]
+}
